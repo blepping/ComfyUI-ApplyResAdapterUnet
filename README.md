@@ -4,6 +4,8 @@ ComfyUI node to apply the ResAdapter Unet patch for SD1.5 models.
 
 See https://github.com/bytedance/res-adapter for explanation and link to download the LoRA and unet patch.
 
+Note: I am not affiliated with ResAdapter. This is an (experimental) personal project. I believe it works correctly, but no guarantees!
+
 ## Usage
 
 ### SDXL
