@@ -15,6 +15,8 @@ For SDXL, you only need the LoRA (as far as I know) so a dedicated node is unnec
 * Put the `resolution_normalization.safetensors` model in `models/unet`
 * Patch the model with the `ApplyResAdapterUnet` node, load the `resolution_lora.safetensors` LoRA normally.
 
+![Node example](assets/applynode.png)
+
 You can experiment with different unet and LoRA strengths.
 I haven't tested it extensively, but at resolutions above 1024x1024 using full strength doesn't seem to work well (and in fact may be worse than nothing).
 It's also possible to combine ResAdapter with other techniques such as Kohya Deep Shrink (AKA `PatchModelAddDownScale`).
