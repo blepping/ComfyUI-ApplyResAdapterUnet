@@ -1,0 +1,14 @@
+[project]
+name = "applyresadapterunet"
+description = "ComfyUI node to apply the ResAdapter Unet patch for SD1.5 models"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/blepping/ComfyUI-ApplyResAdapterUnet"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-ApplyResAdapterUnet"
+Icon = ""
